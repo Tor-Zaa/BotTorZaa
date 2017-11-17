@@ -49,10 +49,10 @@ class Channel:
         self.obs_token = result.obsToken
         self.refresh_token = result.refreshToken
 
-        print "channelAccessToken:" + result.channelAccessToken
-        print "token:" + result.token
-        print "obs_token:" + result.obsToken
-        print "refreshToken:" + result.refreshToken
+        print "\nchannelAccessToken:" + result.channelAccessToken
+        print "\ntoken:" + result.token
+        print "\nobs_token:" + result.obsToken
+        print "\nrefreshToken:" + result.refreshToken
 
     def new_post(self, text):
 
