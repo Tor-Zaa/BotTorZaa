@@ -350,8 +350,8 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("MikanBOT")
+      print("\n@ TOR_Zaa_BOT @")
       print("mid -> " + prof.mid)
-      print("name -> " + prof.displayName)
-      print("authToken -> " + self.authToken)
-      print("cert -> " + self.cert if self.cert is not None else "")
+      print("name -> [ " + prof.displayName + " ]")
+      print("\nauthToken -> " + self.authToken)
+      print("\ncert -> " + self.cert if self.cert is not None else "")
